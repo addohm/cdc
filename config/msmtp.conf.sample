@@ -1,3 +1,9 @@
+##################################################################
+#                      msmtp.conf.sample                         #
+#  Configure this with your provider smtp settings and account   #
+#  information.  Then rename the file to msmtp.conf.             #
+##################################################################
+
 # Set default values for all following accounts.
 defaults
 # logfile        stdout
