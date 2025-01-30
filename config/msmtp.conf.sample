@@ -1,0 +1,28 @@
+# Set default values for all following accounts.
+defaults
+# logfile        stdout
+
+# Gmail
+account        gmail
+host           smtp.gmail.com
+port           465
+tls_starttls   off
+from           you@gmail.com
+user           you
+password       plain-text-password
+
+# Office
+account         office
+host            smtp.office365.com
+port            587
+auth            on
+tls             on
+tls_starttls    on
+tls_certcheck   on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+from            you@office.com
+user            you@office.com
+password        passwordORapppassword
+
+# Set a default account
+account default: office
